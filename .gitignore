@@ -1,0 +1,19 @@
+# Virtual environment — never commit this
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# DeepFace model weights (downloaded automatically)
+.deepface/
+
+# Streamlit cache
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
